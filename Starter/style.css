@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #455A64;
+  color: #212121;
+  font-family: 'Quicksand', sans-serif;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.page-footer{
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+padding-top: 0px;
+}
+
+.cardContainer{
+  padding-top: 20%;
+}
+
+#cityInput{
+  color: white;
+  margin-top: 20%;
+  font-size: 25px;
+}
+
+input {
+  color: white;
+}
+
+.forecast {
+  float: right;
+}
+
+.nav-extended{
+  background-color: #607D8B;
+}
+
+.page-footer{
+  background-color: #607D8B;
+  color: #212121'
+
+}
